@@ -1,0 +1,63 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Start",
+        "href": "/docs/start",
+        "docId": "start",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "webgl",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "doc1",
+            "href": "/docs/webgl/doc1",
+            "docId": "webgl/doc1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "doc2",
+            "href": "/docs/webgl/doc2",
+            "docId": "webgl/doc2",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "start": {
+      "id": "start",
+      "title": "Start",
+      "description": "- [ ] x",
+      "sidebar": "tutorialSidebar"
+    },
+    "webgl/doc1": {
+      "id": "webgl/doc1",
+      "title": "doc1",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "webgl/doc2": {
+      "id": "webgl/doc2",
+      "title": "doc2",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

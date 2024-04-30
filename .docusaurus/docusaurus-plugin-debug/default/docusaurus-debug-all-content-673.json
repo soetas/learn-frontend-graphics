@@ -1,0 +1,138 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\projects\\fe-developer-docs\\sidebars.js",
+          "contentPath": "D:\\projects\\fe-developer-docs\\docs",
+          "contentPathLocalized": "D:\\projects\\fe-developer-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "start",
+              "title": "Start",
+              "description": "- [ ] x",
+              "source": "@site/docs/start.md",
+              "sourceDirName": ".",
+              "slug": "/start",
+              "permalink": "/docs/start",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/start.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "doc1",
+                "permalink": "/docs/webgl/doc1"
+              }
+            },
+            {
+              "id": "webgl/doc1",
+              "title": "doc1",
+              "description": "",
+              "source": "@site/docs/webgl/doc1.md",
+              "sourceDirName": "webgl",
+              "slug": "/webgl/doc1",
+              "permalink": "/docs/webgl/doc1",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/webgl/doc1.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start",
+                "permalink": "/docs/start"
+              },
+              "next": {
+                "title": "doc2",
+                "permalink": "/docs/webgl/doc2"
+              }
+            },
+            {
+              "id": "webgl/doc2",
+              "title": "doc2",
+              "description": "",
+              "source": "@site/docs/webgl/doc2.md",
+              "sourceDirName": "webgl",
+              "slug": "/webgl/doc2",
+              "permalink": "/docs/webgl/doc2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/webgl/doc2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "doc1",
+                "permalink": "/docs/webgl/doc1"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "start"
+              },
+              {
+                "type": "category",
+                "label": "webgl",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "webgl/doc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "webgl/doc2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

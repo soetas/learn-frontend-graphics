@@ -1,0 +1,20 @@
+{
+  "id": "start",
+  "title": "Start",
+  "description": "- [ ] x",
+  "source": "@site/docs/start.md",
+  "sourceDirName": ".",
+  "slug": "/start",
+  "permalink": "/docs/start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/start.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "doc1",
+    "permalink": "/docs/webgl/doc1"
+  }
+}
